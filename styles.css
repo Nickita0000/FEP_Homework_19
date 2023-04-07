@@ -1,0 +1,23 @@
+#container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+a {
+    display: block;
+    color : blue;
+    text-decoration-line: underline;
+}
+a:hover{
+     cursor: pointer;
+     color: lightblue;
+ }
+a:focus{
+    color: purple;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+    margin: 5px;
+}
